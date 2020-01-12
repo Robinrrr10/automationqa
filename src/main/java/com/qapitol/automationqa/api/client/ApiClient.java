@@ -89,6 +89,7 @@ public class ApiClient {
 			httpResponse = client.execute(getRequest);
 			apiUtils.addLogAndAllure(httpResponse);
 			log.info("http executed");
+			
 			break;
 		}
 		case POST: {
